@@ -19,3 +19,35 @@
 .card > img {
   border-radius: 16px;
 }
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card > h2 {
+  border-left: 10px solid rgb(0, 209, 224);
+  margin: 16px;
+  border-radius: 5px;;
+}
+
+.title1,
+.title2 {
+  display: inline;
+  margin-right: 14px;
+  border: 0px solid transparent;
+  background-color: aliceblue;
+  color: black;
+  border-radius: 5px;
+  padding: 0px 0px;
+  text-align: center;
+}
+
+.title3 {
+  border: 0px solid transparent;
+  background-color: aliceblue;
+  color: black;
+  border-radius: 5px;
+  padding: 0px 0px;
+  margin-inline: 60px;
+  text-align: center;
+}
