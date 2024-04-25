@@ -10,6 +10,7 @@
 .card:hover {
   box-shadow: 4px 4px white;
   translate: -4px -4px;
+  cursor: pointer
 }
 
 .card > h2{
@@ -20,34 +21,24 @@
   border-radius: 16px;
 }
 
-.card:hover {
-  cursor: pointer;
-}
-
 .card > h2 {
-  border-left: 10px solid rgb(0, 209, 224);
+  border-left: 8px solid rgb(0, 209, 224);
   margin: 16px;
   border-radius: 5px;;
 }
+ .card > .tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 16px;
+ }
 
-.title1,
-.title2 {
-  display: inline;
-  margin-right: 14px;
-  border: 0px solid transparent;
-  background-color: aliceblue;
+.tags > div {
+  background: white;
   color: black;
-  border-radius: 5px;
-  padding: 0px 0px;
-  text-align: center;
-}
-
-.title3 {
-  border: 0px solid transparent;
-  background-color: aliceblue;
-  color: black;
-  border-radius: 5px;
-  padding: 0px 0px;
-  margin-inline: 60px;
-  text-align: center;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 12px
 }
