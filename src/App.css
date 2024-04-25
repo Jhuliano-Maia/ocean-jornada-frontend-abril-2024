@@ -5,6 +5,7 @@
   border-radius: 16px;
   text-align: center;
   transition: 0.15s all;
+  width: 300px;
 }
 
 .card:hover {
@@ -26,6 +27,10 @@
   margin: 16px;
   border-radius: 5px;;
 }
+.card > img {
+  border-radius: 16px;
+}
+
  .card > .tags {
   display: flex;
   flex-wrap: wrap;
